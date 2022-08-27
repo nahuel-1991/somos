@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    float: right; /*navegador hacia la derecha*/
+    margin-right: 500px;
+    margin-top: 30px;
+}
+li:hover a{
+    color: white;
+    border: 10px #ff0b0b;
+    border-bottom: 3px solid white;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.homeLogo{
+    position: absolute;
+    padding: 10px 50px;
+}
+
+.logo{
+    height: 60px;
+}
+
+header{
+    height: 80px;
+    background-image: linear-gradient(to top, #b7d16b, #b7d570, #b7da75, #b6de7a, #b6e27f, #b3e57e, #b0e97d, #acec7c, #a4f074, #9af36d, #8ef766, #81fb5f);
+    position: fixed;
+    width: 100%;
+    box-shadow: none;
+}
+.img1{
+    width: 50px;
+}
+main{
+    background-color: #b6b6b6;
+}
+/*Body*/
+body{
+    background-color: rgba(121, 125, 123, 0.335);
+}
+/*Footer*/
+footer{
+    background-color: #000000;
+    min-height: 70px; /**Tamaño*/  
+}
+
+/*registro*/
+.box{
+    margin-left: 540px;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid lightgreen;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 20px 20px 20px 4px rgb(75, 74, 74);
+}
+form{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.parrafoInicioSesion{
+    color: rgb(255, 1, 1);
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulos{
+    background-color: #000000;
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+}
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    justify-content: center;
+    color: #adca3f;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    justify-content: center;
+    color: #adca3f;
+    display: flex;
+}
+    
+h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    color: #adca3f;
+    display: flex;
+    background-color: #000000;
+}
+.miMain{
+    background-image: url(../img/mujer.jpg);
+    height: 100vh;
+    background-repeat: no-repeat; /*repeat-x horizontal o -y vertical*/
+    background-size: cover; /*no se modifica el tamaño de al img al ampliar o achicar la ventana*/
+    background-attachment: fixed;
+    background-position: center center;
+}
+.img1{
+    width: 100px;
+    margin: 50px;
+}
+.img2{
+    width: 100px;
+    margin: 50px;
+}
+.img3{
+    width: 100px;
+    margin: 50px;
+}
+.img4{
+    width: 100px;
+    margin: 50px;
+}
+.img5{
+    width: 100px;
+    margin: 50px;
+}
+.img6{
+    width: 100px;
+    margin: 50px;  
+}
